@@ -1,0 +1,28 @@
+@import '/node_modules/normalize-styl/normalize.styl'
+
+mid-grey = rgba(125 125 125 1)
+dark-grey = rgba(69 69 69 1)
+orange = rgba(245 134 35 1)
+
+body
+	font: 16px/1.6rem 'Source Sans Pro', sans-serif
+	color: dark-grey
+.container
+	min-width: 100% 
+	
+.header
+	width: 80%
+	margin: 2rem auto
+	display: flex	
+	justify-content: center
+
+	&__title
+		margin: 0
+		flex: 1 100%
+		font-size: 1.25rem	
+		color: mid-grey
+		font-weight: 600
+
+	&__sub-title
+		flex: 1 100%
+		color: orange
